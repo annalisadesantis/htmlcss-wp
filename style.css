@@ -38,6 +38,42 @@ h2{
     letter-spacing: 2px;
 }
 
+/*menu verticale*/
+nav{
+    background-color: #504741;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    height:50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+nav a.sub-menu::after{
+    content: "";
+}
+
+/* #arrow{
+    color: white;
+    margin-left: 2px;
+} */
+
+nav li:hover{
+    background-color: #00000066;
+}
 
 /*contenitore*/
 .container::after{
