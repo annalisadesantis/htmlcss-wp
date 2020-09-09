@@ -10,7 +10,7 @@ body{
 }
 
 #wrapper{
-    width: 95%;
+    width: 90%;
     margin:auto;
 }
 
@@ -84,7 +84,7 @@ nav li:hover{
 
 /*parte laterale sinistra*/
 aside{
-    height: 500px;
+    /* height: 500px; */
     width: 25%;
     /* margin-left: 10px; */
     float: left;
@@ -122,9 +122,9 @@ h4{
 
 /*parte principale*/
 main{
-    height: 500px;
-    width: calc(50% - 10px);
-    margin-top: 10px;
+    /* height: 500px; */
+    width: 50%;
+    /* margin-top: 10px; */
     float: left;
 }
 
@@ -153,6 +153,11 @@ h3{
 
 .after-calendar{
     color: #C0C0C0;
+}
+
+.autor{
+    text-decoration:none;
+    color: #99CC33;
 }
 
 .comments-article-link{
@@ -195,27 +200,74 @@ img{
     color: #99CC33;
 }
 
-
-/*laterale destra*/
-.container-right{
+/* parte laterale destra*/
+aside.container-right{
     float: left;
-    width: calc(20% - 10px);
-    margin-left: 10px;
-    margin-bottom: 10px;
+    width: 25%;
+    /* margin-left: 10px;
+    margin-bottom: 10px; */
 }
 
-section.quadrato-sopra{
-    background-color: violet;
-    height: 180px;
+.box-aside{
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
     width: 100%;
-    margin-bottom: 10px;
+    padding:20px;
+    border-radius: 2px;
+    float: left;
+    box-shadow: none;
 }
 
-section.quadrato-sotto{
-    background-color: violet;
-    height: 180px;
-    width: 100%;
+.search{
+    float: left;
+    background: rgba(0, 0, 0, 0.04);
+    color: #999999;
+    width: 72%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+button{
+    background-color: #706760;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    padding:10px;
+    margin-left: 6px;
+    width: 22%;
+    float: left;
+}
+
+button:hover{
+    background-color: #504741;
+    color: #FFF;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, .25);
+}
+
+section.box-link{
+    background-color: white;
+    /* height: 180px; */
+    width: 100%;
+    float: left;
+}
+
+.title-link{
+    margin-bottom: 5px;
+}
+
+.link-list{
+    text-decoration:none;
+    color: #99CC33;
+    font-size: 10px;
+}
+
+.link-list-special{
+    text-decoration:none;
+    color: #99CC33;
+    font-size: 20px;
+}
+
 
 /*chiusura finale*/
 footer{
