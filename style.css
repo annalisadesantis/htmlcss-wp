@@ -38,7 +38,7 @@ h2{
     letter-spacing: 2px;
 }
 
-/*menu verticale*/
+/*menu orizzontale*/
 nav{
     background-color: #504741;
     margin-bottom: 10px;
@@ -84,11 +84,40 @@ nav li:hover{
 
 /*parte laterale sinistra*/
 aside{
-    background-color: violet;
-    height: 300px;
-    width: 25%;
-    margin-left: 10px;
+    height: 500px;
+    width: 20%;
+    /* margin-left: 10px; */
     float: left;
+}
+
+.box-aside{
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+    border-radius: 2px;
+    padding:20px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.page-list{
+    list-style-type: none;
+}
+
+.page-list a{
+    text-decoration:none;
+    color: #99CC33;
+    margin: 5px;
+    padding: 5px 8px;
+    display: block;
+}
+
+.page-list a:hover{
+    background-color: #D3D3D3;
+    border-radius: 2px;
 }
 
 /*parte principale*/
