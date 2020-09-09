@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*intestazione*/
+header{
+    background-color: yellow;
+    height: 150px;
+    margin:10px;
+}
+
+/*contenitore*/
+.container::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+/*parte laterale sinistra*/
+aside{
+    background-color: violet;
+    height: 300px;
+    width: 25%;
+    margin-left: 10px;
+    float: left;
+}
+
+/*parte principale*/
+main{
+    background-color: purple;
+    height: 400px;
+    width: calc(50% - 10px);
+    margin-left: 10px;
+    float: left;
+}
+
+/*laterale destra*/
+.container-right{
+    float: left;
+    width: calc(23% - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+section.quadrato-sopra{
+    background-color: violet;
+    height: 180px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+section.quadrato-sotto{
+    background-color: violet;
+    height: 180px;
+    width: 100%;
+}
+
+/*chiusura finale*/
+footer{
+    background-color: lightblue;
+    height: 60px;
+    margin: 10px 10px;
+}
