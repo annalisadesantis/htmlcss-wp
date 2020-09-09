@@ -4,12 +4,40 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
+#wrapper{
+    width: 95%;
+    margin:auto;
+}
+
 /*intestazione*/
 header{
-    background-color: yellow;
-    height: 150px;
-    margin:10px;
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    /* height: 150px; */
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    text-transform: uppercase;
+    border: 12px solid white;
 }
+
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
 
 /*contenitore*/
 .container::after{
