@@ -271,7 +271,18 @@ section.box-link{
 
 /*chiusura finale*/
 footer{
-    background-color: lightblue;
-    height: 60px;
-    margin: 10px 10px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 60px;
+    border: 12px solid white;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.aligh-left{
+    font-size: 0.9em;
+    line-height: 1.8;
+    display:block;
+    color: #666666;
 }
