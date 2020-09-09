@@ -63,7 +63,7 @@ nav a{
 }
 
 nav a.sub-menu::after{
-    content: "";
+    content: "⇣";
 }
 
 /* #arrow{
